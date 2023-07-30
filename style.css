@@ -1,163 +1,166 @@
-
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    font-size: 16px;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 20px;
 }
 
 body {
-    height: 100vh;
-    color: white;
-    background: #8C7C68;
+	background-color: #B6B7B2;
+	color: #fff;
 }
 
 
 
 
 
-
-header {
-    margin: 0;
-}
-
-.cabecalho {
-    position: relative;
-    z-index: 5;
-}
-
-.lista-menu__titulo {
-    color: #D9B9A7;
-    font-size: 24px;
-}
-
-.lista-menu__item a {
-    color: #A69580;
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-.container__botao:checked ~ .lista-menu {
-    display: block;
-}
-
-.container__botao {
-    display: none;
-}
-
-.cabecalho__menu-hamburguer {
+.logo {
+    width: 50%;
     display: inline-block;
 }
 
-.icon {
-    width: 30px;
-    padding: 0.5em;
-    position: fixed;
-    right: 15px;
-    bottom: 15px;
-    border-radius: 50%;
-    background-color: #402E1E;
-}
-
-.lista-menu {
-    position: fixed;
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    display: none;
-    margin: -5% 0;
-}
-
-.lista-menu__titulo, .lista-menu__item {
-    padding: 1em 2em;
-    background-color: #402E1E;
-}
-
-
-
-
-.principal {
-    margin:  0;
-    height: 30vh;
-    align-items: center;   
-    text-align: center; 
-}
-
-.foto-rosto {
-    width: 90%;
-    transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translatey(4%);
-    }
-
-    50% {
-        transform: translatey(0px);
-    }
-
-    100% {
-        transform: translatey(4%);
-    }
+    margin: -3% 0;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 60% 38%;
-    color: white;
+    display: flex;
+    align-items: center;
 }
 
-h2 {
-    font-size: 17px;
+.icon img {
+    padding: 0 1em;
 }
 
-.container_frase {
-    text-align: center;
-    margin: 2%;
+.
+
+
+
+
+
+
+
+
+.container-inicio {
+	margin: 20px;
 }
 
-.frase {
-    font-size: 23px;
+.inicio {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	align-items: center;
+}
+
+.foto-rosto {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.missao-relatos {
+	text-align: center;
+    margin: 5px;
+}
+
+.resultados {
+	color: #D93250;
+}
+
+
+
+
+
+.container-terapeuta {
+	text-align: center;
+	align-items: center;
+	margin: 10px;
+}
+
+.terapia {
+	margin: 10px;
+}
+
+.video {
+    margin: 20px;
+    box-shadow: 10px 10px 5px #59554C;
+}
+
+.nome {
+    margin: 0 0 10px 0;
+}
+
+.explicacao {
+	text-align: justify;
+	border-radius: 10px;
+	padding: 1em;
+	background-color: #d93250;
+	color: #F2EFDF;
+}
+
+.explicacao li{
+    font-size: 70%;
+}
+
+
+
+
+
+
+
+.container-transformacao{
+	text-align: center;
+    margin: 20px 0;
+}
+
+.relato-titulo {
+    margin: 6%;
+}
+
+.transformacao {
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	align-items: center;
+}
+
+.relato {
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px  #000;
+
+}
+
+.print {
+    width: 60%;
+    border-radius: 10px;
+    background-color: #2B1B7B;
     padding: 3%;
 }
 
-.subtexto {
-    font-size: 15px;
+.print:active {
+    transform: scale(3);
 }
 
 
 
 
-
-.pais {
-    margin: 4% 0 0 0;
-    background: linear-gradient(#8C7C68, #BFB6AE, #8C7C68);
+.texto-ex {
+    border-radius: 20px;
+    padding: 10%;
+    margin: 4px 10px;
+    background-color: #1c71a6;
+    box-shadow: 10px 10px 20px  #000;
+    font-size: 50%;
 }
-
-.maps {
-    float: left;
-    margin: 7% 0 0 6%;
-    border-radius: 15px;
-    width: 20%;
-}
-
-.foto-1 {
-    width: 60%;
-    padding: 2% 0 0 7%;
-}
-
-
-
-
-
 
 
 
 
 
 .swiper-slide img {
-    width: 100%;
+    width: 50%;
     margin: 1em 0;
 }
 
@@ -175,313 +178,87 @@ h2 {
 
 
 
-.container-caixa {
-    margin: 10%;
-    border-radius: 30px 100px 30px 100px;
-    background-color: #FF5F5D;
-    text-align: center;
-    align-items: center;
-
-}
-
-.container-texto {
-    color: white;
-    padding: 5% 10%;
-    font-size: 1em;
-}
-
-
-
-
-
-
-
-.musicas {
-    background-color: #000;
-    border-radius: 30px;
-    margin: 20px;
-    padding: 20px 0 0 15px;
-    border: solid #24a969;
-    align-items: center;
-}
-
-.musicas a {
-    font-size: 50%;
-    color: #24a969;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    font-family: 'Rubik', sans-serif;
-}
-
-h2 {
-    font-size: 100%;
-    color: white;
-    text-align: center;
-    padding: 15px;
-}
-
-.img-musica {
-    width: 40%;
-    border-radius: 10px 0 0 10px;
-}
-
-.container-musica {
-    width: 94%;
-	padding: 18px;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-}
-
-.container-musica li {
-    margin: 5px;
-	padding: 0 10% 0 0;
-    background-color: #3B3936;
-    border-radius: 10px;
-}
-
-
-
-
-
-
-
-.titulo-mim {
-    margin: 1em 1em 0.7em 1em;
-    font-family: 'Amatic SC', cursive;
-    text-align: center;
-    font-size: 1.3em;
-}
-
-.lista-de-mim {
-    background-color: #595856;
-    margin: 0 0 10% 0;
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-.lista-de-mim ul {
-    margin: 0 0.3em 0.3em 1.3em;
-}
-
-.lista-de-mim li {
-    font-size: 13.5px;
-    font-family: 'Amatic SC', cursive;
-}
-
-.img-codigo {
-    background-image: url('img/img-codigo.PNG');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-}
-
-
-
-
-
-
-
-
-
-
-footer {
-    padding: 4% 20% 6% 20%;
-    background: #000;
-    color: white;
-    text-align: center;
-}
-
-.rodape {
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-
-h1 {
-    margin: 3%;
-}
-
-footer p {
-    margin: 1em;
-}
-
-.link {
-    border-radius: 5px;
-    background-color: #413121;
-    padding: 1%;
-    font-size: 25px;
-}
-
-footer a {
-    color: rgb(191, 190, 190);
-}
-
-
 
 
 
 @media (min-width: 600px) {
-
-    .container {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        color: white;
-        height: 70%;
-    }
-
-
-
-
-
-
-
-    .foto-rosto {
-        margin: 3% 0 0 13%;
-        width: 60%;
-        float: left;
-    }
-    
-    .bella-frase {
-        margin: 0 8% 0 0;
-    }
-
-
-    .inicio {
-        font-size: 2em;
-    }
-
-    .frase {
-        font-size: 4em;
-    }
-
-    .subtexto {
-        font-size: 1em;
-    }
-
-
-
-
-
-
-    .pais {
-        margin: 0;
-    }
-
-    .maps {
-        width: 300px;
-        height: 500px;
-        margin: 3% 0 0 5%;
-    }
-
-    .foto-1 {
-        position: relative;
-        left: 15%;
+    .logo {
+        padding: -10% 0;
         width: 40%;
     }
 
 
 
 
-    
+
+    .icon img {
+        width: 50%;
+    }
+
+    .cabecalho {
+        margin: -2% 0 -10% 0;
+    }
 
 
-    .container-texto {
-        font-size: 2em;
+    .container {
+        padding: 1em 1em 0 1em;
     }
 
 
 
-
-
-
-
-    h2 {
-        font-size: 200%;
+    .foto-rosto {
+        width: 50%;
     }
 
-    .musicas a {
+	.container-terapeuta {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+    .resultados {
+        font-size: 170%;
+    }
+
+    .missao-relatos {
         font-size: 150%;
     }
 
-    .img-musica {
-        width: 15%;
-    }
 
-    .container-musica li {
-        margin: 1em;
-    }
 
-    .container-musica li:hover {
-        border-color: #24a969;
-        transition: 1s all;
-        transform: scale(1.1);
+
+    .explicacao {
+        margin: 0 5%;
+    }
+    .explicacao li {
+        font-size: 120%;
+        padding: 2%;
     }
 
 
-
-
-
-    .container-mim {
-        background-color: #40352C;
-        margin: 0 0 10% 0;
-        height: 100vh;
-    }
-    
-    .titulo-mim {
-        margin: 1em;
-        font-size: 2.5em;
-   }
-    
-    .lista-de-mim {
-        display: grid;
-        grid-template-columns: 50% 50%;
-    }
-    
-    .lista-de-mim ul {
-        margin: 2em 2em 2em 3em;
-    }
-
-    .lista-de-mim li {
-        font-size: 137%;
-
-    }
-    
-    .img-codigo {
-        background-image: url('img/img-codigo.PNG');
-        background-repeat: no-repeat;
-        background-size: 100%;
-        height: 100vh;
+    .video {
+        width: 50%;
+        height: 50%;
     }
 
 
 
 
-
-    footer {
-        padding: 5% 30%;
+    .texto-ex {
+        margin: 20px 100px;
+        font-size: 100%;
     }
 
-    h1 {
-        margin: 0;
-        font-size: 2em;
+
+    .print:hover {
+        transition: 3s all;
+        transform: scale(2);
     }
 
-    .rodape a {
-        font-size: 30px;
-    }
 
-    .rodape {
-        padding: 3%;
-    }
 
-    footer a :hover {
-        margin-left: 40px;
-        opacity: 1;
-    }
 
-    .lista-menu {
-        margin: -2% 0 0 0;
+    .swiper-slide img {
+        width: 50%;
+        margin: 1em 3em;
     }
-
 }
