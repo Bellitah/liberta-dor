@@ -1,0 +1,101 @@
+* {
+	padding: 0;
+	margin: 0;
+	color: #000;
+	font-size: 20px;
+}
+
+body {
+	background-color: #E0E2D7;
+	color: #fff;
+}
+
+
+
+
+
+.container-inicio {
+	margin: 20px;
+}
+
+.inicio {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	text-align: center;
+	align-items: center;
+	height: 40vh;
+}
+
+.missao-relatos {
+	text-align: center;
+}
+
+.resultados {
+	color: #D93250;
+}
+
+
+
+
+
+.container-terapeuta {
+	text-align: center;
+	align-items: center;
+	height: 50vh;
+	margin: 10px;
+}
+
+.terapia {
+	margin: 10px;
+}
+
+.explicacao {
+	text-align: justify;
+	border-radius: 10px;
+	padding: 1em;
+	font-size: 120%;
+	background-color: #59554C;
+	color: #F2EFDF;
+}
+
+
+
+
+
+
+
+.container-transformacao{
+	text-align: center;
+}
+
+.transformacao {
+	display: grid;
+	grid-template-columns: 40% 30% 30%;
+	align-items: center;
+	height: 20vh;
+}
+
+.transformacao2 {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	align-items: center;
+	height: 20vh;
+}
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+	.inicio {
+		height: 35vh;
+	}
+
+	.container-terapeuta {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+}
