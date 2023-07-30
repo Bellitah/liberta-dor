@@ -5,89 +5,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Website icon" type="png"
-     href="#">
-    <title>Liberta Dor</title>
+    <link rel="Website icon" type="png" href="img/foto-rosto.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Indie+Flower&family=Rubik&display=swap" rel="stylesheet">
+    <title>Bella</title>
     <link rel="stylesheet" href="style.css"> 
 </head>
 
-
-
-<header>
-	<img class="logo" src="#">
-</header>
-
-
-
 <body>
-	<section class="container-inicio">
-		<div class="inicio">
-		<div>
-			<img class="foto-rosto" src="#">
-		</div>
-		<div>
-			<p class="resultados">Tera resultados TRANSFORMADORES</p>
-			<p>ja nas primeiras sessoes do atendimento que e feito 100% on-line</p>
-		</div>
-		</div>
-			<p class="missao-relatos"><em>Minha missao.</em></p>
-	</section>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"><img src="img/cardapio.png" class="icon"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Sites feitos por mim</li>
+                <li class="lista-menu__item">
+                    <a href="https://pacman-ebon.vercel.app/">pacman</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://robotica.vercel.app/">robotica escolar</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://nasa-tawny.vercel.app/">nasa</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="https://site-2-liart.vercel.app/">caçambas</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="principal container">
+        <div class="inicio">
+           <img class="foto-rosto" src="img/foto-rosto.png" alt="">
+        </div>
+        <div>
+            <h2 class="bella-frase">Meu nome é Isabella, estou criando essa página para falar um pouco mais sobre mim.</h2>
+        </div>
+    </section>
+
+    <section>
+        <div class="container_frase">
+            <p class="frase">“Coração no futuro e mente no presente.”</p>
+            <p class="subtexto">(Tentando criar frases bonitas)</p>
+        </div>
+    </section>
+
+    <section class="pais">
+        <div>
+            <iframe class="maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22190.628535203185!2d12.097911964522087!3d45.95470813576229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47791a2cb18bdf69%3A0xa0d98ab0b4273f14!2s31051%20Follina%2C%20Treviso%2C%20It%C3%A1lia!5e0!3m2!1spt-BR!2sbr!4v1689549521078!5m2!1spt-BR!2sbr"
+                width="150" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <img src="img/foto-juntas.png" alt="foto da Italia" class="foto-1">
+        </div>
+
+    </section>
 
 
+    <section>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="img/ft1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft6.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft7.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft8.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/ft9.jpg" alt=""></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <section class="container-caixa">
+        <p class="container-texto">Sou nascida e criada até meus 5 anos em uma pequena cidade do sul da Italia chamada Follina.</p>
+    </section>
+
+    <section class="musicas">
+        <h2>Minhas músicas preferidas 
+            <br> (com link para o spotify).</h2>
+        <div class="container-musica">
+        <div>
+        <ul>
+            <li><a href="https://open.spotify.com/intl-pt/track/4EE4GBdp5L1FOWjicVNj2H?si=c6c5240c3d754978"><img class="img-musica" src="img/msc-dezembro.PNG" alt="capa da música">Dezembro - Artur Diniz</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/0FBV7lozkqCSuV2q24n43x?si=9931ee860c6745e9"><img class="img-musica" src="img/minha vida é um filme.PNG" alt="capa da música">Minha vida é um filme - Teto</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/2DllnWTQNjh5NDN1A2ZtnH?si=e6ca47c801684c56"><img class="img-musica" src="img/serenata existencialista.PNG" alt="capa da música">Serenata existencialista - O Grilo</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/7nSataGo54Le0IfcFQCFLN?si=d55e771072954d67"><img class="img-musica" src="img/love love.PNG" alt="capa da música">Love love - Gilsons</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/0KT8Lw46impmb59xfgpVo6?si=e1d40bd895c64b1c"><img class="img-musica" src="img/so sei dancar com vc.PNG" alt="capa da música">Só sei dançar com você - GabrielMzero</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/6Y62EUa0zeCpH0NE9l643Z?si=2c38edc9ca5842ac"><img class="img-musica" src="img/Marta 10.PNG" alt="capa da música">Marta 10 - BIN</a></li>
+            <li><a href="https://open.spotify.com/intl-pt/track/5opsWp8BUr8rs1YBF1vLYw?si=fca53bf8c3ae4e8e"><img class="img-musica" src="img/lealdade.PNG" alt="capa da música">Lealdade - WIU</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="https://open.spotify.com/track/3iOX564oFfYKPwd4tKWpk9"><img class="img-musica" src="img/AR.PNG" alt="capa da música">AR - Erika Lundmoen</a></li>
+            <li><a href="https://open.spotify.com/track/3nCW0oEqFZXG1oCYwDX3sS"><img class="img-musica" src="img/hiato.PNG" alt="capa da música">Hiato - Cronicas De Um Babaca</a></li>
+            <li><a href="https://open.spotify.com/track/2FzAysxEBwrbufkx7Du6et"><img class="img-musica" src="img/o que sobrou.PNG" alt="capa da música">O Que Sobrou (150Bpm) - Mazili</a></li>
+            <li><a href="https://open.spotify.com/track/61U3pw1w9sHYnjHgibzN4h"><img class="img-musica" src="img/sorvete de ovomaltine.PNG" alt="capa da música">Sorvete de Ovomaltine - Magyn</a></li>
+            <li><a href="https://open.spotify.com/track/45djjsjM1lMV7fHoKEGm9h"><img class="img-musica" src="img/meio a meio.PNG" alt="capa da música">Meio a Meio - Thegust Mc's</a></li>
+            <li><a href="https://open.spotify.com/track/4rTR3utj3ZCRNozrF1ZdPw"><img class="img-musica" src="img/kyoto.PNG" alt="capa da música">Kyoto - Magyn</a></li>
+            <li><a href="https://open.spotify.com/track/3M0lSi5WW79CXQamgSBIjx"><img class="img-musica" src="img/swim.PNG" alt="capa da música">Swim - Chase Atlantic</a></li>
+        </ul>
+    </div>
+    </div>
+    </section>
 
 
-	<section class="container-terapeuta">
-		<div class="terapia">
-			<h1>COMO ME TORNEI TERAPEUTA.</h1>
-			<img src="#">
-			<p>Ines Lopes  .  Terapeuta</p>
-			<p>Ajudo pessoas com problemas emocionais como: medos constantes, insonia angustia, grau elevado de tristeza,depressao, panico, dobias, crises de ansiedade, problemas intestinais e outros.</p>
-		</div>
-		<div class="explicacao">
-			<ul>
-				<li>Ajudo a identificar e solucionar o trauma na causa raiz/origem do problema, desde a infancia ate os dias atuais. Resultando em uma transformacao na vida do individuo apos realizar todo o processo.</li>
-				<li>Aplicando a tecnica especifica testrada e aprovada pelo MEC. Con o reprocessamento generativo, com o qual se obtem resultados significativos e rapidos. Vai gerar crencas poderosas efacilitadoras para a vida.</li>
-			</ul>
-		</div>
-	</section>
+    <section class="container-mim">
+        <div class="lista-de-mim">
+            <div>
+                <p class="titulo-mim">Um pouco de mim.</p>
+                <ul>
+                    <li>Artesanato é um dos meus maiores hobbies.</li>
+                    <li>Sempre estou vendo coisinhas de anime.</li>
+                    <li>Passo metade do meu dia ouvindo as mesmas 10 músicas de sempre.</li>
+                    <li>Tiro fotos de tudo.</li>
+                    <li>Gosto de ver o lado bom nas coisas.</li>
+                    <li>Dou muita importancia aos detalhes.</li>
+                    <li>Adoro cozinhar.</li>
+                    <li>Pão de queijo é minha comuida preferida desde criança.</li>
+                    <li>Desculpo fácil, mas, nunca perdoou.</li>
+                    <li>Gosto de ver a vida como as nuvens, cada dia de uma forma diferente.</li>
+                    <li>O simples me atraí.</li>
+                    <li>Conversas profundas sempre são necessarias.</li>
+                    <li>Eu amo o Brian. E ele ainda está vivo no meu coração.</li>
+                    <li>Olhares são como constelações.</li>
+                    <li>Não sei jogar jogos de computador.</li>
+                </ul>
+            </div>
+            <div class="img-codigo">
+                <p>.</p>
+            </div>
+        </div>
+    </section>
 
 
+    <footer>
+        <h1>Minhas redes sociais e formas de contato.</h1>
+        <div class="rodape">
+            <div>
+                <a href="https://www.instagram.com/lopes_belh/?next=%2F">
+                    <span class="link">Instagram</span>
+                </a>
+                <br>
+                <br>
+                <a href="https://github.com/Bellitah">
+                    <span class="link">GitHub</span>
+                </a>
+            </div>
+            <div>
+                <a href="https://br.pinterest.com/isabellapereira0802/">
+                    <span class="link">Pinterest</span>
+                </a>
+                <br>
+                <br>
+                <a href="https://vsco.co/lopesbelh/gallery">
+                    <span class="link">Vsco</span>
+                </a>
+            </div>
+        </div>
 
-	<section class="container-transformacao">
-		<h1>RELATOS DE CLIENTES - TRANFORMACAO</h1>
-		<div class="transformacao">
-			<div>
-				<img src="#">
-			</div>
-			<div>
-				<img src="#">
-			</div>
-			<div>
-				<img src="#">
-			</div>
-		</div>
-	</section>
+        <p>isabellapereira0802@gmail.com</p>
+        <p>Feito por Isabella Lopes Pereira</p>
+    </footer>
 
-
-
-
-	<section class="container-transformacao">
-		<h1>RELATOS DE CLIENTES - TRANFORMACAO</h1>
-		<div class="transformacao2">
-			<div>
-				<img src="#">
-			</div>
-			<div>
-				<img src="#">
-			</div>
-			<div>
-				<img src="#">
-			</div>
-			<div>
-				<img src="#">
-			</div>
-		</div>
-	</section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+            const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+        
+        });
+    </script>
+    <script src="carrosse.js"></script>
 
 </body>
+
 </html>
