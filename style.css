@@ -65,8 +65,14 @@ body {
     margin: 5px;
 }
 
+.container-resultados {
+    margin: 10px;
+}
+
 .resultados {
 	color: #D93250;
+    font-size: 90%;
+    margin: 3px;
 }
 
 
