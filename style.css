@@ -67,11 +67,11 @@ body {
 
 .container-resultados {
     margin: 10px;
+    font-size: 85%;
 }
 
 .resultados {
 	color: #D93250;
-    font-size: 90%;
     margin: 3px;
 }
 
